@@ -26,9 +26,12 @@ https://ethw.org/History_of_Lossless_Data_Compression_Algorithms?ref=timescale.g
 # Repo structure
 
 1. Download ITCH data
-2. Save to duckdb parquet
-3. In per ticker partition, apply compression using duckdb UDF
-4. Compare before-compression, general compression and sophiscated compreesion result
+  https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/
+2. Decode ITCH
+   https://github.com/amankrx/matching-engine-rs
+4. Save to duckdb parquet
+5. In per ticker partition, apply compression using duckdb UDF
+6. Compare before-compression, general compression and sophiscated compreesion result
 
 Integer: 
 1) `delta_encoding | simple_8b`
